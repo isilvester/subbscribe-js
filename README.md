@@ -57,17 +57,23 @@ The list and form’s URL are **required**. The plugin will log an error if they
 
 `list` - 'MailChimp' or 'CampaignMonitor'
 
+`delay` - Dispatch the slide in after X number of seconds
+
 `url` - Your MailChimp/CampaignMonitor form URL. You can get it from the form embed script under the action attribute.
 
 `title` - The window title.
 
 `text ` - The text that will show up above the form when a user click to subscribe.
 
-`name` - The name that will show up next to the thumbnail. This could be a link or a Twitter handle.
+`name` - The name that will show up next to the thumbnail. This could be a link to a Twitter handle.
 
 `color` - The color of the button.
 
 `thumbnail` - A path to the thumbnail you wish to include. Make sure it’s a square as the plugin will scale it down to 40x40px
+
+`emailonly` - If set to true, the name field will not be included in the opt-in form.
+
+`cm_mail_field` - If CampaignMonitor is used as client, a CM mail field should be provided.
 
 ### Callbacks
 
